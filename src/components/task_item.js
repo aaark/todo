@@ -8,7 +8,7 @@ const TaskItem = (props) => {
       <td>{props.number}</td>
       <td>{props.task.title}</td>
       <td>
-        <button onClick={ () => props.removeTask(props.task) }>
+        <button onClick={ () => props.removeTask(props.task) } className='removeButton'>
           <i className='fa fa-times' />
         </button>
       </td>
